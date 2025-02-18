@@ -7,6 +7,9 @@ const page = () => {
     <>
       <Navbar />
       <Hero />
+      <div className='h-screen'>
+        <h1>Page</h1>
+      </div>
     </>
   )
 }
