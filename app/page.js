@@ -1,4 +1,5 @@
 import Hero from '@/components/Hero'
+import LogoTicker from '@/components/LogoTicker'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 
@@ -7,9 +8,7 @@ const page = () => {
     <>
       <Navbar />
       <Hero />
-      <div className='h-screen'>
-        <h1>Page</h1>
-      </div>
+      <LogoTicker />
     </>
   )
 }
