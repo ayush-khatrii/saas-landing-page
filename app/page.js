@@ -1,3 +1,4 @@
+import CallToAction from '@/components/CallToAction'
 import Hero from '@/components/Hero'
 import LogoTicker from '@/components/LogoTicker'
 import Navbar from '@/components/Navbar'
@@ -13,6 +14,7 @@ const page = () => {
       <LogoTicker />
       <Showcase />
       <Testimonials />
+      <CallToAction />
     </>
   )
 }

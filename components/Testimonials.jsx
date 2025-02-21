@@ -16,15 +16,15 @@ const Testimonials = () => {
 
         <div className="relative flex w-full items-center justify-center overflow-hidden">
           <Marquee
-            className="[--duration:20s]"
+            className="[--duration:60s]"
             pauseOnHover
           >
             {reviews.map((review) => (
               <ReviewCard key={review.username} {...review} />
             ))}
           </Marquee>
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-black"></div>
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-black"></div>
+          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#050608]"></div>
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-[#050608]"></div>
         </div>
       </div>
     </section>

@@ -1,6 +1,6 @@
-import { PiStarFourFill } from "react-icons/pi";
 import { TbMenu3 } from "react-icons/tb";
 import Button from "./ui/Button";
+import { GiPolarStar } from "react-icons/gi";
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="container mx-auto px-5 lg:px-0">
         <div className="md:backdrop-blur flex justify-between items-center md:border border-white/15 md:p-2.5 rounded-xl max-w-2xl mx-auto">
           <div className="border h-10 w-10 inline-flex justify-center items-center rounded-lg border-white/15 cursor-pointer">
-            <PiStarFourFill className="w-6 h-6 text-violet-700" />
+            <GiPolarStar className="w-6 h-6" />
           </div>
           <div>
             <nav className="hidden md:flex gap-8 justify-center text-sm items-center">
