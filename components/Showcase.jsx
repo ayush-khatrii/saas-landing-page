@@ -6,17 +6,17 @@ const featuresData = [
   {
     icon: "/assets/click.lottie",
     isNew: true,
-    text: "AI-Powered Code Suggestions"
+    text: " Automated Insights"
   },
   {
     icon: "/assets/stars.lottie",
     isNew: false,
-    text: "Intelligent Error Fixing"
+    text: "Seamless Integration"
   },
   {
     icon: "/assets/vroom.lottie",
     isNew: false,
-    text: "Seamless Project Management"
+    text: "Blazing-Fast Processing"
   },
 ];
 
@@ -24,7 +24,7 @@ const Showcase = () => {
   return (
     <section className="py-20 md:py24">
       <div className="container px-5 mx-auto">
-        <h1 className="text-3xl md:text-5xl font-medium text-center tracking-tighter mb-5">
+        <h1 className="text-3xl md:text-5xl font-medium text-center tracking- mb-5">
           Unlock the Full Potential of AI in Your Terminal
         </h1>
         <p className="text-white/70 text-center font-light tracking-tight text-base md:text-lg max-w-2xl mx-auto leading-relaxed">Supercharge your workflow with intelligent code suggestions, debugging tools, and AI-powered automation</p>

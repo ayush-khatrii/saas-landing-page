@@ -5,14 +5,13 @@ const Footer = () => {
   return (
     <footer className="border-t border-white/15 py-5">
       <div className="container mx-auto px-5">
-        <div className="flex flex-col justify-between lg:flex-row gap-8">
+        <div className="flex flex-col justify-between md:items-center lg:flex-row gap-8">
           <div className="relative flex items-center gap-3 cursor-pointer">
             <div className="border h-10 w-10 inline-flex justify-center items-center rounded-lg border-white/15 cursor-pointer">
               <GiPolarStar className="w-6 h-6" />
             </div>
             <div className="flex flex-col items-center justify-center">
               <div className="font-medium">AI Startup landing page</div>
-              <div className="mt-1 text-xs w-full font-extralight">Developed by <a href="https://ayushkhatri.site" target="_blank" className="text-purple-500"> Ayush Khatri</a></div>
             </div>
           </div>
           <nav className="flex flex-col lg:flex-row gap-5 lg:gap-6 ">

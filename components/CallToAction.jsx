@@ -31,6 +31,7 @@ const CallToAction = () => {
           </div>
         </div>
       </div>
+      <div className="text-center my-5 w-full font-extralight">Developed by <a href="https://ayushkhatri.site" target="_blank" className="text-purple-500 font-medium hover:underline transition-all"> Ayush Khatri</a></div>
     </section>
   )
 }

@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Button = ({ children }) => {
   return (
     <button className="relative py-2 px-3 rounded-lg cursor-pointer font-medium text-sm bg-gradient-to-b from-[#4e0394] to-[#2a024f] shadow-[0px_0px_8px_#8c45ff] transition-all duration-200 ease-in-out text-white">
