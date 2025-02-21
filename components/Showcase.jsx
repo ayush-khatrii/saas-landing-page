@@ -27,7 +27,7 @@ const Showcase = () => {
         <h1 className="text-3xl md:text-5xl font-medium text-center tracking-tighter mb-5">
           Unlock the Full Potential of AI in Your Terminal
         </h1>
-        <p className="text-white/70 text-center font-light tracking-tight text-base md:text-xl max-w-2xl mx-auto leading-relaxed">Supercharge your workflow with intelligent code suggestions, debugging tools, and AI-powered automation</p>
+        <p className="text-white/70 text-center font-light tracking-tight text-base md:text-lg max-w-2xl mx-auto leading-relaxed">Supercharge your workflow with intelligent code suggestions, debugging tools, and AI-powered automation</p>
         <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-2.5">
           {
             featuresData.map((item) => (

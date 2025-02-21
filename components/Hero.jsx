@@ -13,7 +13,7 @@ const Hero = () => {
         <Ripple />
       </div>
       <div className="container px-3">
-        <h1 className="z-50 lg:text-6xl text-3xl font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgba(74,32,138,.9))] text-transparent bg-clip-text text-center">
+        <h1 className="z-50 lg:text-7xl text-3xl font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgba(74,32,138,.9))] text-transparent bg-clip-text text-center">
           {/* Unlock the Power of */}
            AI in Your Terminal
         </h1>
