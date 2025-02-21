@@ -1,4 +1,5 @@
 import CallToAction from '@/components/CallToAction'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import LogoTicker from '@/components/LogoTicker'
 import Navbar from '@/components/Navbar'
@@ -15,6 +16,7 @@ const page = () => {
       <Showcase />
       <Testimonials />
       <CallToAction />
+      <Footer />
     </>
   )
 }
