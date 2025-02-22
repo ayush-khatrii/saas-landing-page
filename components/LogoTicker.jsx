@@ -10,7 +10,7 @@ import { motion } from "motion/react";
 
 const LogoTicker = () => {
   return (
-    <section className="md:py-32 py-20">
+    <section className="py-20">
       <div className="max-w-7xl mx-auto px-5">
         <div className="flex items-center gap-10">
           <div className="flex-1 md:flex-none">

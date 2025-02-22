@@ -19,8 +19,8 @@ const CallToAction = () => {
           >
           </div>
           <div className="relative px-5">
-            <h2 className="text-3xl md:text-6xl tracking-tighter text-center font-medium">Insights with AI-Powered Analytics</h2>
-            <p className="md:text-xl text-center max-w-2xl mx-auto mt-5 tracking-tight font-light text-white/70 px-4 ">
+            <h2 className="text-3xl md:text-6xl tracking-tight text-center font-medium">Insights with AI-Powered Analytics</h2>
+            <p className="md:text-xl text-center max-w-2xl mx-auto mt-5 tracking-wide font-light text-white/70 px-4 ">
               Transform raw data into powerful business decisions with real-time AI-driven insights, predictive analytics, and automated reporting.
             </p>
             <div className="flex justify-center mt-5">

@@ -8,10 +8,10 @@ const Testimonials = () => {
     <section className='py-20'>
       <div className='container px-4 md:px-6 mx-auto'>
         <h1 className="text-3xl md:text-5xl font-medium text-center tracking-tight mb-5">
-          Beyond Expectations
+          What Our Users Say
         </h1>
-        <p className="text-white/70 text-center font-light tracking-tight text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-          Our revolutionary AI SEO tools have transformed our clients' strategies.
+        <p className="text-white/70 text-center font-light tracking-normal text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+          See how businesses are saving time, boosting accuracy, and making smarter decisions with AI-driven insights!
         </p>
 
         <div className="relative mt-10 flex w-full items-center justify-center overflow-hidden">
